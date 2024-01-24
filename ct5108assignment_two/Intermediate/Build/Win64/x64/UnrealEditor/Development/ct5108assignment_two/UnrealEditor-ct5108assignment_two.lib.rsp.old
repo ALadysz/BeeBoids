@@ -1,0 +1,12 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-ct5108assignment_two.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"D:\ct5108assignmnet2\ct5108assignment_two\Intermediate\Build\Win64\x64\ct5108assignment_twoEditor\Development\Engine\SharedPCH.Engine.Cpp20.h.obj"
+"D:\ct5108assignmnet2\ct5108assignment_two\Intermediate\Build\Win64\x64\UnrealEditor\Development\ct5108assignment_two\ct5108assignment_two.cpp.obj"
+"D:\ct5108assignmnet2\ct5108assignment_two\Intermediate\Build\Win64\x64\UnrealEditor\Development\ct5108assignment_two\Default.rc2.res"
+/OUT:"D:\ct5108assignmnet2\ct5108assignment_two\Intermediate\Build\Win64\x64\UnrealEditor\Development\ct5108assignment_two\UnrealEditor-ct5108assignment_two.lib"

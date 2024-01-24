@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "ct5108assignment_two",
+			"Path": "..\\Source\\ct5108assignment_two.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "ct5108assignment_twoEditor",
+			"Path": "..\\Source\\ct5108assignment_twoEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

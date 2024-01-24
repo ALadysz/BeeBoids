@@ -1,0 +1,14 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\s4204218\\documents\\github\\ct5108assignmnet2\\ct5108assignment_two\\source\\ct5108assignment_two\\ct5108assignment_two.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\s4204218\\documents\\github\\ct5108assignmnet2\\ct5108assignment_two\\intermediate\\build\\win64\\x64\\ct5108assignment_twoeditor\\development\\engine\\sharedpch.engine.cpp20.h.pch",
+        "Includes": [
+            "c:\\users\\s4204218\\documents\\github\\ct5108assignmnet2\\ct5108assignment_two\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\ct5108assignment_two\\definitions.ct5108assignment_two.h",
+            "c:\\users\\s4204218\\documents\\github\\ct5108assignmnet2\\ct5108assignment_two\\source\\ct5108assignment_two\\ct5108assignment_two.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

@@ -1,0 +1,613 @@
+{
+	"folders": [
+		{
+			"name": "ct5108assignmnet",
+			"path": "."
+		},
+		{
+			"name": "UE5",
+			"path": "D:\\UE_5.3"
+		}
+	],
+	"settings": {
+		"typescript.tsc.autoDetect": "off",
+		"npm.autoDetect": "off"
+	},
+	"extensions": {
+		"recommendations": [
+			"ms-vscode.cpptools",
+			"ms-dotnettools.csharp"
+		]
+	},
+	"tasks": {
+		"version": "2.0.0",
+		"tasks": [
+			{
+				"label": "ct5108assignmnet Win64 Debug Build",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"ct5108assignmnet",
+					"Win64",
+					"Debug",
+					"D:\\ct5108assignmnet2\\ct5108assignmnet.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "D:\\UE_5.3"
+				}
+			},
+			{
+				"label": "ct5108assignmnet Win64 Debug Rebuild",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"ct5108assignmnet",
+					"Win64",
+					"Debug",
+					"D:\\ct5108assignmnet2\\ct5108assignmnet.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"ct5108assignmnet Win64 Debug Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "D:\\UE_5.3"
+				}
+			},
+			{
+				"label": "ct5108assignmnet Win64 Debug Clean",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+				"args": [
+					"ct5108assignmnet",
+					"Win64",
+					"Debug",
+					"D:\\ct5108assignmnet2\\ct5108assignmnet.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "D:\\UE_5.3"
+				}
+			},
+			{
+				"label": "ct5108assignmnet Win64 DebugGame Build",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"ct5108assignmnet",
+					"Win64",
+					"DebugGame",
+					"D:\\ct5108assignmnet2\\ct5108assignmnet.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "D:\\UE_5.3"
+				}
+			},
+			{
+				"label": "ct5108assignmnet Win64 DebugGame Rebuild",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"ct5108assignmnet",
+					"Win64",
+					"DebugGame",
+					"D:\\ct5108assignmnet2\\ct5108assignmnet.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"ct5108assignmnet Win64 DebugGame Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "D:\\UE_5.3"
+				}
+			},
+			{
+				"label": "ct5108assignmnet Win64 DebugGame Clean",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+				"args": [
+					"ct5108assignmnet",
+					"Win64",
+					"DebugGame",
+					"D:\\ct5108assignmnet2\\ct5108assignmnet.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "D:\\UE_5.3"
+				}
+			},
+			{
+				"label": "ct5108assignmnet Win64 Development Build",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"ct5108assignmnet",
+					"Win64",
+					"Development",
+					"D:\\ct5108assignmnet2\\ct5108assignmnet.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "D:\\UE_5.3"
+				}
+			},
+			{
+				"label": "ct5108assignmnet Win64 Development Rebuild",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"ct5108assignmnet",
+					"Win64",
+					"Development",
+					"D:\\ct5108assignmnet2\\ct5108assignmnet.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"ct5108assignmnet Win64 Development Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "D:\\UE_5.3"
+				}
+			},
+			{
+				"label": "ct5108assignmnet Win64 Development Clean",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+				"args": [
+					"ct5108assignmnet",
+					"Win64",
+					"Development",
+					"D:\\ct5108assignmnet2\\ct5108assignmnet.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "D:\\UE_5.3"
+				}
+			},
+			{
+				"label": "ct5108assignmnet Win64 Test Build",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"ct5108assignmnet",
+					"Win64",
+					"Test",
+					"D:\\ct5108assignmnet2\\ct5108assignmnet.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "D:\\UE_5.3"
+				}
+			},
+			{
+				"label": "ct5108assignmnet Win64 Test Rebuild",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"ct5108assignmnet",
+					"Win64",
+					"Test",
+					"D:\\ct5108assignmnet2\\ct5108assignmnet.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"ct5108assignmnet Win64 Test Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "D:\\UE_5.3"
+				}
+			},
+			{
+				"label": "ct5108assignmnet Win64 Test Clean",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+				"args": [
+					"ct5108assignmnet",
+					"Win64",
+					"Test",
+					"D:\\ct5108assignmnet2\\ct5108assignmnet.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "D:\\UE_5.3"
+				}
+			},
+			{
+				"label": "ct5108assignmnet Win64 Shipping Build",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"ct5108assignmnet",
+					"Win64",
+					"Shipping",
+					"D:\\ct5108assignmnet2\\ct5108assignmnet.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "D:\\UE_5.3"
+				}
+			},
+			{
+				"label": "ct5108assignmnet Win64 Shipping Rebuild",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"ct5108assignmnet",
+					"Win64",
+					"Shipping",
+					"D:\\ct5108assignmnet2\\ct5108assignmnet.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"ct5108assignmnet Win64 Shipping Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "D:\\UE_5.3"
+				}
+			},
+			{
+				"label": "ct5108assignmnet Win64 Shipping Clean",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+				"args": [
+					"ct5108assignmnet",
+					"Win64",
+					"Shipping",
+					"D:\\ct5108assignmnet2\\ct5108assignmnet.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "D:\\UE_5.3"
+				}
+			},
+			{
+				"label": "ct5108assignmnetEditor Win64 Debug Build",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"ct5108assignmnetEditor",
+					"Win64",
+					"Debug",
+					"D:\\ct5108assignmnet2\\ct5108assignmnet.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "D:\\UE_5.3"
+				}
+			},
+			{
+				"label": "ct5108assignmnetEditor Win64 Debug Rebuild",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"ct5108assignmnetEditor",
+					"Win64",
+					"Debug",
+					"D:\\ct5108assignmnet2\\ct5108assignmnet.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"ct5108assignmnetEditor Win64 Debug Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "D:\\UE_5.3"
+				}
+			},
+			{
+				"label": "ct5108assignmnetEditor Win64 Debug Clean",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+				"args": [
+					"ct5108assignmnetEditor",
+					"Win64",
+					"Debug",
+					"D:\\ct5108assignmnet2\\ct5108assignmnet.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "D:\\UE_5.3"
+				}
+			},
+			{
+				"label": "ct5108assignmnetEditor Win64 DebugGame Build",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"ct5108assignmnetEditor",
+					"Win64",
+					"DebugGame",
+					"D:\\ct5108assignmnet2\\ct5108assignmnet.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "D:\\UE_5.3"
+				}
+			},
+			{
+				"label": "ct5108assignmnetEditor Win64 DebugGame Rebuild",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"ct5108assignmnetEditor",
+					"Win64",
+					"DebugGame",
+					"D:\\ct5108assignmnet2\\ct5108assignmnet.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"ct5108assignmnetEditor Win64 DebugGame Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "D:\\UE_5.3"
+				}
+			},
+			{
+				"label": "ct5108assignmnetEditor Win64 DebugGame Clean",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+				"args": [
+					"ct5108assignmnetEditor",
+					"Win64",
+					"DebugGame",
+					"D:\\ct5108assignmnet2\\ct5108assignmnet.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "D:\\UE_5.3"
+				}
+			},
+			{
+				"label": "ct5108assignmnetEditor Win64 Development Build",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"ct5108assignmnetEditor",
+					"Win64",
+					"Development",
+					"D:\\ct5108assignmnet2\\ct5108assignmnet.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "D:\\UE_5.3"
+				}
+			},
+			{
+				"label": "ct5108assignmnetEditor Win64 Development Rebuild",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"ct5108assignmnetEditor",
+					"Win64",
+					"Development",
+					"D:\\ct5108assignmnet2\\ct5108assignmnet.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"ct5108assignmnetEditor Win64 Development Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "D:\\UE_5.3"
+				}
+			},
+			{
+				"label": "ct5108assignmnetEditor Win64 Development Clean",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+				"args": [
+					"ct5108assignmnetEditor",
+					"Win64",
+					"Development",
+					"D:\\ct5108assignmnet2\\ct5108assignmnet.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "D:\\UE_5.3"
+				}
+			}
+		]
+	},
+	"launch": {
+		"version": "0.2.0",
+		"configurations": [
+			{
+				"name": "Launch ct5108assignmnet (Debug)",
+				"request": "launch",
+				"program": "D:\\ct5108assignmnet2\\Binaries\\Win64\\UnrealGame-Win64-Debug.exe",
+				"preLaunchTask": "ct5108assignmnet Win64 Debug Build",
+				"args": [
+				],
+				"cwd": "D:\\UE_5.3",
+				"stopAtEntry": false,
+				"console": "externalTerminal",
+				"type": "cppvsdbg",
+				"visualizerFile": "D:\\UE_5.3\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+				"sourceFileMap": {
+					"D:\\build\\++UE5\\Sync": "D:\\UE_5.3"
+				}
+			},
+			{
+				"name": "Launch ct5108assignmnet (DebugGame)",
+				"request": "launch",
+				"program": "D:\\ct5108assignmnet2\\Binaries\\Win64\\UnrealGame-Win64-DebugGame.exe",
+				"preLaunchTask": "ct5108assignmnet Win64 DebugGame Build",
+				"args": [
+				],
+				"cwd": "D:\\UE_5.3",
+				"stopAtEntry": false,
+				"console": "externalTerminal",
+				"type": "cppvsdbg",
+				"visualizerFile": "D:\\UE_5.3\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+				"sourceFileMap": {
+					"D:\\build\\++UE5\\Sync": "D:\\UE_5.3"
+				}
+			},
+			{
+				"name": "Launch ct5108assignmnet (Development)",
+				"request": "launch",
+				"program": "D:\\ct5108assignmnet2\\Binaries\\Win64\\UnrealGame.exe",
+				"preLaunchTask": "ct5108assignmnet Win64 Development Build",
+				"args": [
+				],
+				"cwd": "D:\\UE_5.3",
+				"stopAtEntry": false,
+				"console": "externalTerminal",
+				"type": "cppvsdbg",
+				"visualizerFile": "D:\\UE_5.3\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+				"sourceFileMap": {
+					"D:\\build\\++UE5\\Sync": "D:\\UE_5.3"
+				}
+			},
+			{
+				"name": "Launch ct5108assignmnet (Test)",
+				"request": "launch",
+				"program": "D:\\ct5108assignmnet2\\Binaries\\Win64\\UnrealGame-Win64-Test.exe",
+				"preLaunchTask": "ct5108assignmnet Win64 Test Build",
+				"args": [
+				],
+				"cwd": "D:\\UE_5.3",
+				"stopAtEntry": false,
+				"console": "externalTerminal",
+				"type": "cppvsdbg",
+				"visualizerFile": "D:\\UE_5.3\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+				"sourceFileMap": {
+					"D:\\build\\++UE5\\Sync": "D:\\UE_5.3"
+				}
+			},
+			{
+				"name": "Launch ct5108assignmnet (Shipping)",
+				"request": "launch",
+				"program": "D:\\ct5108assignmnet2\\Binaries\\Win64\\UnrealGame-Win64-Shipping.exe",
+				"preLaunchTask": "ct5108assignmnet Win64 Shipping Build",
+				"args": [
+				],
+				"cwd": "D:\\UE_5.3",
+				"stopAtEntry": false,
+				"console": "externalTerminal",
+				"type": "cppvsdbg",
+				"visualizerFile": "D:\\UE_5.3\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+				"sourceFileMap": {
+					"D:\\build\\++UE5\\Sync": "D:\\UE_5.3"
+				}
+			},
+			{
+				"name": "Launch ct5108assignmnetEditor (Debug)",
+				"request": "launch",
+				"program": "D:\\UE_5.3\\Engine\\Binaries\\Win64\\UnrealEditor-Win64-Debug.exe",
+				"preLaunchTask": "ct5108assignmnetEditor Win64 Debug Build",
+				"args": [
+					"D:\\ct5108assignmnet2\\ct5108assignmnet.uproject"
+				],
+				"cwd": "D:\\UE_5.3",
+				"stopAtEntry": false,
+				"console": "externalTerminal",
+				"type": "cppvsdbg",
+				"visualizerFile": "D:\\UE_5.3\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+				"sourceFileMap": {
+					"D:\\build\\++UE5\\Sync": "D:\\UE_5.3"
+				}
+			},
+			{
+				"name": "Launch ct5108assignmnetEditor (DebugGame)",
+				"request": "launch",
+				"program": "D:\\UE_5.3\\Engine\\Binaries\\Win64\\UnrealEditor-Win64-DebugGame.exe",
+				"preLaunchTask": "ct5108assignmnetEditor Win64 DebugGame Build",
+				"args": [
+					"D:\\ct5108assignmnet2\\ct5108assignmnet.uproject"
+				],
+				"cwd": "D:\\UE_5.3",
+				"stopAtEntry": false,
+				"console": "externalTerminal",
+				"type": "cppvsdbg",
+				"visualizerFile": "D:\\UE_5.3\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+				"sourceFileMap": {
+					"D:\\build\\++UE5\\Sync": "D:\\UE_5.3"
+				}
+			},
+			{
+				"name": "Launch ct5108assignmnetEditor (Development)",
+				"request": "launch",
+				"program": "D:\\UE_5.3\\Engine\\Binaries\\Win64\\UnrealEditor.exe",
+				"preLaunchTask": "ct5108assignmnetEditor Win64 Development Build",
+				"args": [
+					"D:\\ct5108assignmnet2\\ct5108assignmnet.uproject"
+				],
+				"cwd": "D:\\UE_5.3",
+				"stopAtEntry": false,
+				"console": "externalTerminal",
+				"type": "cppvsdbg",
+				"visualizerFile": "D:\\UE_5.3\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+				"sourceFileMap": {
+					"D:\\build\\++UE5\\Sync": "D:\\UE_5.3"
+				}
+			},
+			{
+				"name": "Generate Project Files",
+				"type": "coreclr",
+				"request": "launch",
+				"preLaunchTask": "UnrealBuildTool Win64 Development Build",
+				"program": "D:\\UE_5.3\\Engine\\Build\\BatchFiles\\RunUBT.bat",
+				"args": [
+					"-projectfiles",
+					"-vscode",
+					"-project=D:\\ct5108assignmnet2\\ct5108assignmnet.uproject",
+					"-game",
+					"-engine",
+					"-dotnet"
+				],
+				"console": "externalTerminal",
+				"stopAtEntry": false,
+				"cwd": "D:\\UE_5.3"
+			}
+		]
+	}
+}

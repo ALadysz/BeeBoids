@@ -1,0 +1,58 @@
+[
+	{
+		"file": "D:\\ct5108assignmnet2\\Source\\ct5108assignmnet\\Boid.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@D:\\ct5108assignmnet2\\.vscode\\compileCommands_Default\\ct5108assignmnet.1.rsp"
+		],
+		"directory": "D:\\UE_5.3\\Engine\\Source"
+	},
+	{
+		"file": "D:\\ct5108assignmnet2\\Source\\ct5108assignmnet\\Boid.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@D:\\ct5108assignmnet2\\.vscode\\compileCommands_Default\\ct5108assignmnet.1.rsp"
+		],
+		"directory": "D:\\UE_5.3\\Engine\\Source"
+	},
+	{
+		"file": "D:\\ct5108assignmnet2\\Source\\ct5108assignmnet\\BoidManager.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@D:\\ct5108assignmnet2\\.vscode\\compileCommands_Default\\ct5108assignmnet.1.rsp"
+		],
+		"directory": "D:\\UE_5.3\\Engine\\Source"
+	},
+	{
+		"file": "D:\\ct5108assignmnet2\\Source\\ct5108assignmnet\\BoidManager.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@D:\\ct5108assignmnet2\\.vscode\\compileCommands_Default\\ct5108assignmnet.1.rsp"
+		],
+		"directory": "D:\\UE_5.3\\Engine\\Source"
+	},
+	{
+		"file": "D:\\ct5108assignmnet2\\Source\\ct5108assignmnet\\ct5108assignmnet.Build.cs",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@D:\\ct5108assignmnet2\\.vscode\\compileCommands_Default\\ct5108assignmnet.1.rsp"
+		],
+		"directory": "D:\\UE_5.3\\Engine\\Source"
+	},
+	{
+		"file": "D:\\ct5108assignmnet2\\Source\\ct5108assignmnet\\ct5108assignmnet.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@D:\\ct5108assignmnet2\\.vscode\\compileCommands_Default\\ct5108assignmnet.1.rsp"
+		],
+		"directory": "D:\\UE_5.3\\Engine\\Source"
+	},
+	{
+		"file": "D:\\ct5108assignmnet2\\Source\\ct5108assignmnet\\ct5108assignmnet.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@D:\\ct5108assignmnet2\\.vscode\\compileCommands_Default\\ct5108assignmnet.1.rsp"
+		],
+		"directory": "D:\\UE_5.3\\Engine\\Source"
+	}
+]
