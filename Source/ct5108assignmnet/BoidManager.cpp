@@ -173,4 +173,3 @@ void ABoidManager::BoidBehaviour(FString behaviour, float DeltaTime)
 	}
 }
 
-
