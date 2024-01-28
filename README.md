@@ -8,4 +8,4 @@
 ### References:
 - **Hive Background** - https://www.vecteezy.com/vector-art/15845816-bee-comb-background-bee-hive-abstract-yellow-honeycombs-on-background-vector-illustration
 - **Bee Model** - https://www.cgtrader.com/free-3d-models/animals/insect/minecraft-bee-free
-  - _Although the original owner is Mojang/Microsoft **This project is not associated with them** I did modify this model in Blender: the antennas and wings were too thin and kept appearing invisible so they were fixed accordingly_
+  - _Although the original owner is Mojang/Microsoft (**This project is not associated with them**) I did modify this model in Blender: the antennas and wings were too thin and kept appearing invisible so they were fixed accordingly_
